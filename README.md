@@ -1,0 +1,2 @@
+# TECNINFO
+aprendizagem de dev
