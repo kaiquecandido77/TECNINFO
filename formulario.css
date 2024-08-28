@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contêiner principal */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Cabeçalho */
+header {
+  background: #5c9b9b;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Navegação */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+
+nav a:hover {
+  background: #575757;
+}
+
+/* Seções principais */
+section {
+  margin: 2em 0;
+}
+
+/* Cards de animais */
+.animal-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.animal-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.animal-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.animal-card p {
+  margin-bottom: 1em;
+}
+
+.animal-card button {
+  background: #5c9b9b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.animal-card button:hover {
+  background: #4a7a7a;
+}
+
+/* Rodapé */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
