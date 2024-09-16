@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function calcularidade(){
+                const anoNascimento = document.getElementById('anoNascimento').value;
+                const anoAtual = new Date().getFullYear();
+                const Idade = anoAtual - anoNascimento;
+                document.getElementById('resultado').innerText = "Você tem " + Idade + " anos.";
+            }
+        </script>  
+    </head>   
+<body>
+    <h1>Javascript</h1>
+<!--
+    <button type="button" onclick ="document.write(5+6)">execute</button>
+-->
+    <button type="button" onclick ="window.print()">imprimir</button>
+    <p id="demo1"></p>
+    <script>
+        const pi = 3.14;
+        let pessoa = "Kaique Candido";
+        let responde = "Sou eu ";
+
+        document.getElementById("demo1").innerHTML = pi + "<br>" + pessoa +"<br>"+ responde; 
+    </script>
+    <!--função
+    <script>
+        let a,b,c,d;
+        a=5;
+        b=10;
+        c=20;
+        d= a+b+c;
+        document.getElementById("demo1").innerHTML = d;
+    </script>
+-->
+<!--script>
+    window.alert(5+6);
+</script>
+-->   
+
+<br>
+<h1>Calcular idade</h1>
+<label for ="anoNascimento">Ano de Nascimento:</label>
+<input type="number" id="anoNascimento" name="anoNascimento"></input>
+<button onclick="calcularIdade()">Calcular Idade</button>
+<p id="resultado"></p>
+
+
+</body>    
+</html>    
